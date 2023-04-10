@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ScoreBoard</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="score.css"/>
+
+  </head>
+  <body>
+            <div id="tab-42" class="rca-tab-content rca-padding">
+              <ul class="rca-tab-list small">
+                <li class="rca-tab-link active" data-tab="tab-411" onclick="showTab(this);">Team X</li>
+                <li class="rca-tab-link" data-tab="tab-412" onclick="showTab(this);">Team Y</li>
+              </ul>
+              <div id="tab-411" class="rca-tab-content rca-padding active">
+                <!-- <div class="rca-padding">                
+                  <div class="rca-switch filled">
+                    <span class="active">Team X</span><span>Team Y</span>
+                  </div>
+                </div> -->
+                <div class="rca-batting-score">
+                  <h3>Team X (11)</h3>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">MS Dhoni</span>
+                    <span class="rca-highlight-text">(C) &amp; (WK)</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Shikhar Dhawan</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Ajinkya Rahane</span>
+                    <span class="rca-right rca-basic-text">Bowler</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Suresh Raina</span>
+                    <span class="rca-right rca-basic-text">All rounder</span>
+                  </div>
+                </div>
+                <div class="rca-batting-score">
+                  <h3>Bench (9)</h3>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Rohit Sharma</span>
+                    <span class="rca-highlight-text">(WK)</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Rohit Sharma</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Rohit Sharma</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Rohit Sharma</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                </div>
+              </div>
+              <div id="tab-412" class="rca-tab-content rca-padding active">
+                <!-- <div class="rca-padding">                
+                  <div class="rca-switch filled">
+                    <span class="active">Team X</span><span>Team Y</span>
+                  </div>
+                </div> -->
+                <div class="rca-batting-score">
+                  <h3>Team Y (11)</h3>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">MS Dhoni</span>
+                    <span class="rca-highlight-text">(C) &amp; (WK)</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Shikhar Dhawan</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Ajinkya Rahane</span>
+                    <span class="rca-right rca-basic-text">Bowler</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Suresh Raina</span>
+                    <span class="rca-right rca-basic-text">All rounder</span>
+                  </div>
+                </div>
+                <div class="rca-batting-score">
+                  <h3>Bench (9)</h3>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Rohit Sharma</span>
+                    <span class="rca-highlight-text">(WK)</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Rohit Sharma</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Rohit Sharma</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                  <div class="rca-player-detail">
+                    <span class="rca-player">Rohit Sharma</span>
+                    <span class="rca-right rca-basic-text">Batsman</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Test Innings Score Card-->
+          <div class="rca-medium-widget rca-top-border">
+            <ul class="rca-tab-list">
+              <li class="rca-tab-link active" data-tab="tab-31" onclick="showTab(this);">SCORECARD</li>
+              <li class="rca-tab-link" data-tab="tab-32" onclick="showTab(this);">SQUAD</li>
+            </ul>
+            <div id="tab-31" class="rca-tab-content rca-padding active">
+              <div class="rca-batting-score rca-padding">
+                <h3>Team X Batting: <strong> 92/2 in 8.5</strong></h3>
+                <div class="rca-row">
+                  <div class="rca-header rca-table">
+                    <div class="rca-col rca-player">
+                      Batsmen
+                    </div>
+                    <div class="rca-col">
+                      R
+                    </div>
+                    <div class="rca-col">
+                      4s
+                    </div>
+                    <div class="rca-col">
+                      6s
+                    </div>
+                    <div class="rca-col">
+                      SR
+                    </div>
+                  </div>
+                </div>
+                <div class="rca-row">
+                  <div class="rca-table">
+                    <div class="rca-col rca-player">
+                      Player x1*
+                      <p>bowled b JR Hazlewood</p>
+                    </div>
+                    <div class="rca-col">
+                      8 (7)
+                    </div>
+                    <div class="rca-col">
+                      0
+                    </div>
+                    <div class="rca-col">
+                      1
+                    </div>
+                    <div class="rca-col">
+                      114.29
+                    </div>
+                  </div>
+                </div>
+                <div class="rca-row rca-padding">
+                  <span>Fours: <strong>18</strong></span>, <span>Sixes: <strong>8</strong></span>, <span>Extras: <strong>29</strong></span>
+                </div>
+              </div>
+              <div class="rca-bowling-score rca-padding">
+                <h3>Team X Bowling:</h3>
+                <div class="rca-row">
+                  <div class="rca-header">
+                    <div class="rca-col rca-player">
+                      Bowler
+                    </div>
+                    <div class="rca-col small">
+                      O
+                    </div>
+                    <div class="rca-col small">
+                      M
+                    </div>
+                    <div class="rca-col small">
+                      R
+                    </div>
+                    <div class="rca-col small">
+                      W
+                    </div>
+                    <div class="rca-col small">
+                      Econ
+                    </div>
+                    <div class="rca-col small">
+                      Extras
+                    </div>
+                  </div>
+                </div>
+                <div class="rca-row">
+                  <div class="rca-table">
+                    <div class="rca-col rca-player">
+                      Player Y
+                    </div>
+                    <div class="rca-col small">
+                      9
+                    </div>
+                    <div class="rca-col small">
+                      2
+                    </div>
+                    <div class="rca-col small">
+                      38
+                    </div>
+                    <div class="rca-col small">
+                      2
+                    </div>
+                    <div class="rca-col small">
+                      5.00
+                    </div>
+                    <div class="rca-col small">
+                      3
+                    </div>
+                  </div>
+                </div>
+                <div class="rca-row">
+                  <div class="rca-table">
+                    <div class="rca-col rca-player">
+                      Player Y
+                    </div>
+                    <div class="rca-col small">
+                      6
+                    </div>
+                    <div class="rca-col small">
+                      2
+                    </div>
+                    <div class="rca-col small">
+                      38
+                    </div>
+                    <div class="rca-col small">
+                      2
+                    </div>
+                    <div class="rca-col small">
+                      7.00
+                    </div>
+                    <div class="rca-col small">
+                      3
+                    </div>
+                  </div>
+                </div>
+                <div class="rca-row rca-padding">
+                  <h3>Fall of Wicket:</h3>
+                  <ol class="rca-wicket-falls">
+                    <li>R Chandrika at 2 runs, in 1.3 over</li>
+                    <li>R Chandrika at 20 runs, in 2.0 over</li>
+                    <li>R Chandrika at 0 runs, in 3.5 over</li>
+                    <li>R Chandrika at 99 runs, in 10.3 over</li>
+                    <li>R Chandrika at 14 runs, in 13.1 over</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div id="tab-32" class="rca-tab-content rca-padding">
+              <div class="rca-padding">                
+                <div class="rca-switch filled">
+                  <span class="active">Team X</span><span>Team Y</span>
+                </div>
+              </div>
+              <div class="rca-batting-score rca-padding">
+                <h3>Team X (11)</h3>
+                <div class="rca-player-detail">
+                  <span class="rca-player">MS Dhoni</span>
+                  <span class="rca-highlight-text">(C) &amp; (WK)</span>
+                  <span class="rca-right rca-basic-text">Batsman</span>
+                </div>
+                <div class="rca-player-detail">
+                  <span class="rca-player">Shikhar Dhawan</span>
+                  <span class="rca-right rca-basic-text">Batsman</span>
+                </div>
+                <div class="rca-player-detail">
+                  <span class="rca-player">Ajinkya Rahane</span>
+                  <span class="rca-right rca-basic-text">Bowler</span>
+                </div>
+                <div class="rca-player-detail">
+                  <span class="rca-player">Suresh Raina</span>
+                  <span class="rca-right rca-basic-text">All rounder</span>
+                </div>
+              </div>
+              <div class="rca-batting-score rca-padding">
+                <h3>Bench (9)</h3>
+                <div class="rca-player-detail">
+                  <span class="rca-player">Rohit Sharma</span>
+                  <span class="rca-highlight-text">(WK)</span>
+                  <span class="rca-right rca-basic-text">Batsman</span>
+                </div>
+                <div class="rca-player-detail">
+                  <span class="rca-player">Rohit Sharma</span>
+                  <span class="rca-right rca-basic-text">Batsman</span>
+                </div>
+                <div class="rca-player-detail">
+                  <span class="rca-player">Rohit Sharma</span>
+                  <span class="rca-right rca-basic-text">Batsman</span>
+                </div>
+                <div class="rca-player-detail">
+                  <span class="rca-player">Rohit Sharma</span>
+                  <span class="rca-right rca-basic-text">Batsman</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

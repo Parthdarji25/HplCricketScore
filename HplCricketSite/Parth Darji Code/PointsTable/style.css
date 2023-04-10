@@ -1,0 +1,144 @@
+body {
+  background-color: #e6e6e6;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+
+.rca-table {
+  display: table;
+  width: 100%;
+}
+
+p {
+  margin: 0px;
+}
+
+a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #002e6e;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+  margin: 0px;
+}
+.rca-row {
+  margin: 0px;
+  padding: 0px;
+}
+
+.rca-col {
+  display: table-cell;
+}
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #b4a1976b;
+}
+.rca-mini-widget {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #b4a1976b;
+}
+.rca-left-border {
+  border-left: 5px solid #002e6e;
+}
+
+.rca-top-border {
+  border-top: 5px solid #002e6e;
+}
+.rca-padding {
+  padding: 15px 10px;
+  display: block;
+}
+.rca-top-padding {
+  padding: 10px 0px;
+}
+.rca-tab-list {
+  border-bottom: 2px solid #e6e6e6;
+  padding: 10px 10px 0 10px;
+  text-align: center;
+}
+.rca-tab-list li {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  color: #002e6e;
+  line-height: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0px 7px 0px 8px;
+  border-bottom: 4px solid transparent;
+}
+.rca-tab-list li a {
+  display: block;
+  padding: 5px 5px;
+}
+.rca-tab-list li:hover,
+.rca-tab-list li:focus,
+.rca-tab-list li.active {
+  color: #4d4d4d;
+  border-bottom-color: #002e6e;
+}
+/* Display Important */
+.rca-tab-content {
+  display: none;
+}
+.rca-tab-content.active {
+  display: block;
+}
+
+.rca-batting-score,
+.rca-bowling-score {
+  border-bottom: 1px solid #e6e6e6;
+}
+.rca-batting-score.rca-no-border,
+.rca-bowling-score.rca-no-border {
+  border-bottom: none;
+}
+.rca-batting-score .rca-table,
+.rca-bowling-score .rca-table {
+  width: 100%;
+  padding: 10px;
+
+}
+.rca-batting-score .rca-header,
+.rca-bowling-score .rca-header {
+  width: 100%;
+  background: #f2f2f2;
+  padding: 10px 0px 10px 5px
+}
+.rca-batting-score .rca-col,
+.rca-bowling-score .rca-col {
+  display: table-cell;
+  width: 15%;
+}
+
+/* Stats-title */
+.rca-stats-title {
+  text-align: center;
+  font-weight: 100;
+}
+/* Media Responsive */
+@media (max-width: 767px) {
+  .rca-mini-widget.rca-stats {
+    min-width: 0;
+  }
+  .rca-hide-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 767px) {
+  .rca-hide-desk {
+    display: none !important;
+  }
+}
+
