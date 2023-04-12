@@ -193,9 +193,9 @@ button {
 }
 
 .rca-medium-widget {
-  font-size: 16px;
-  width: 20%;
-  margin-left: 35%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #b4a1976b;
 }
 .rca-medium-widget .rca-match-title,
 .rca-medium-widget .rca-match-info,
@@ -255,7 +255,7 @@ button {
 }
 .rca-batting-score .rca-col.small,
 .rca-bowling-score .rca-col.small {
-  width: 10%;
+  width: 11%;
 }
 .rca-batting-score .rca-col.rca-player,
 .rca-bowling-score .rca-col.rca-player {
